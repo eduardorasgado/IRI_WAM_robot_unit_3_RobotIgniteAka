@@ -1,4 +1,8 @@
 #! /usr/bin/env python
+In this we:
+ call services that others nodes provided.
+"""
+
 import rospy
 import rospkg
 from iri_wam_reproduce_trajectory.srv import ExecTraj, ExecTrajRequest
