@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch"/>
+    <node pkg="unit_3_services" type="exercise_3_1.py" name="move_iri_wam_with_service" output="screen"/>
+</launch>
